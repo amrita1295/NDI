@@ -1,0 +1,18 @@
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+.d-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.d-col{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.2rem;
+    align-items: center;
+}
+
