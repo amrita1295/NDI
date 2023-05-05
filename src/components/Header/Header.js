@@ -29,7 +29,7 @@ const Header = () => {
                             <p className='mt-2 lg:w-96 min-[561px]:w-96 min-[561px]:text-xl lg:text-xl text-lg '>Stop letting neck pain hold you back - take control and say goodbye to discomfort!</p>
                         </div>
                         <div className='max-[560px]:text-center'>
-                            <button type='button' className='btn btn-active btn-primary lg:mt-10 min-[561px]:mt-5 mt-8 '><a href="https://forms.zoho.in/myfunc/form/NeckDisabilityIndexNDI1" target="_blank" >Assessment Link</a></button>
+                            <button type='button' className='btn btn-active btn-primary lg:mt-10 min-[561px]:mt-5 mt-8 '><a href="https://forms.myfunc.in/myfunc/form/NeckDisabilityIndexNDI1/formperma/g4vvKynOw-4TJipkyv4feHT-UZ1b7yj0HVi2_QXaHJw" target="_blank" >Assessment Link</a></button>
                         </div>
                     </div>
                     <div >
@@ -134,7 +134,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div style={{ textAlign: 'center' }}>
-                        <button type='button' className='btn btn-active btn-primary mt-10 '><a href="https://forms.zoho.in/myfunc/form/NeckDisabilityIndexNDI1" target="_blank" >Assessment Link</a></button>
+                        <button type='button' className='btn btn-active btn-primary mt-10 '><a href="https://forms.myfunc.in/myfunc/form/NeckDisabilityIndexNDI1/formperma/g4vvKynOw-4TJipkyv4feHT-UZ1b7yj0HVi2_QXaHJw" target="_blank" >Assessment Link</a></button>
                     </div>
                     <div style={{ textAlign: 'center' }} className='m-20'>
                         <h1 className='lg:text-4xl min-[561px]:text-4xl text-2xl font-bold'>Let’s Get Started</h1>
