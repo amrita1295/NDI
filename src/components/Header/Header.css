@@ -18,17 +18,12 @@
 .row{
     display: flex;
     flex-direction: row;
-    width: 40vw;
+    
 
 }
 .row-1{
     display: flex;
     flex-direction: row;
-    
-    
-
-   
-
 }
 .white-row{
     display: flex;
