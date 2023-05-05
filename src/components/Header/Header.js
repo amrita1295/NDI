@@ -45,9 +45,9 @@ const Header = () => {
                     </div>
                     <div className='lg:-mt-80 min-[561px]:-mt-40 -mt-32 relative font-family:Urbanist'>
                         <img src={Rectangle2} alt='' className='max-[560px]:h-32 ' />
-                        <div className='lg:right-4 min-[561px]:right-16 right-4 -mt-24 lg:-mt-56 min-[561px]:-mt-36 absolute text-white w-[50%] max-[500px]:w-[60%] '>
+                        <div className='lg:right-4 min-[561px]:right-16 right-4 -mt-24 lg:-mt-56 min-[561px]:-mt-40 absolute text-white w-[50%] max-[500px]:w-[60%] '>
                             <h2 className='lg:text-3xl min-[561px]:text-xl text-md font-bold '>Don't Let reels Win</h2>
-                            <p className='mt-2 lg:text-xl min-[561px]:text-md text-xs max-[560px]:mt-1 '> Act now and start your journey towards a
+                            <p className='mt-2 lg:text-xl min-[561px]:text-lg text-xs max-[560px]:mt-1 '> Act now and start your journey towards a
                                 pain-free life with the help of a medical professional today!</p>
                         </div>
                     </div>
@@ -70,12 +70,12 @@ const Header = () => {
                     </div>
 
                     <div className='absolute white-row lg:-mt-[27%] lg:right-10 lg:w-[55%] min-[561px]:-mt-[35%]  min-[561px]:w-[80%] min-[561px]:ml-32 '>
-                        <div className='row-1'>
+                        <div className='row-1 '>
                             <div className='row'>
                                 <img src={icon1} alt='' className='lg:w-20 lg:h-20 min-[561px]:w-16 min-[561px]:h-16  mr-2' />
                                 <div className='d-flex lg:w-[66%] min-[561px]:w-[60%] '>
                                     <h4 className='font-bold'>Chronic Pain</h4>
-                                    <p className='min-[561px]:text-sm lg:text-md'>Ignoring neck pain can lead to the development of chronic pain,
+                                    <p className='min-[561px]:text-sm lg:text-[16px]'>Ignoring neck pain can lead to the development of chronic pain,
                                         which can become debilitating and negatively impact the quality of life.</p>
                                 </div>
                             </div>
@@ -83,25 +83,25 @@ const Header = () => {
                                 <img src={icon2} alt='' className='lg:w-20 lg:h-20 min-[561px]:w-16 min-[561px]:h-16 mr-2 '  />
                                 <div className='d-flex lg:w-[66%] min-[561px]:w-[60%] '>
                                     <h4 className='font-bold'>Limited Mobility</h4>
-                                    <p className='min-[561px]:text-sm lg:text-md'>Untreated neck pain can lead to a reduced range of motion,
+                                    <p className='min-[561px]:text-sm lg:text-[16px]'>Untreated neck pain can lead to a reduced range of motion,
                                         making it difficult to perform daily activities and affecting overall mobility.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className='row-1'>
+                        <div className='row-1 lg:mt-5'>
                             <div className='row'>
                                 <img src={icon3} alt='' className='lg:w-20 lg:h-20 mr-2 min-[561px]:w-16 min-[561px]:h-16 ' />
                                 <div className='d-flex  lg:w-[66%] min-[561px]:w-[60%] '>
                                     <h4 className='font-bold'>Headache </h4>
-                                    <p className='min-[561px]:text-sm lg:text-md'>Neck pain can cause tension headaches, which can be painful and interfere with daily functioning.</p>
+                                    <p className='min-[561px]:text-sm lg:text-[16px]'>Neck pain can cause tension headaches, which can be painful and interfere with daily functioning.</p>
                                 </div>
                             </div>
                             <div className='row'>
                                 <img src={icon4} alt='' className='lg:w-20 lg:h-20 mr-2 min-[561px]:w-16 min-[561px]:h-16 ' />
                                 <div className='d-flex  lg:w-[66%] min-[561px]:w-[60%] '>
                                     <h4 className='font-bold'>Depression and Anxiety</h4>
-                                    <p className='min-[561px]:text-sm lg:text-md'>Chronic pain can significantly impact mental health,
+                                    <p className='min-[561px]:text-sm lg:text-[16px]'>Chronic pain can significantly impact mental health,
                                         leading to depression and anxiety in some individuals.</p>
                                 </div>
                             </div>
