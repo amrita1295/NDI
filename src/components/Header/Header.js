@@ -10,6 +10,10 @@ import "../Header/Header.css"
 import live from "../../images/Live.png"
 import calender from "../../images/calender.png"
 import time from "../../images/Time.png"
+import icon1 from "../../images/icon-1.png"
+import icon3 from "../../images/icon-3.png"
+import icon4 from "../../images/icon-4.png"
+import icon2 from "../../images/icon-2.png"
 
 const Header = () => {
     return (
@@ -20,12 +24,12 @@ const Header = () => {
                     <div className='flex flex-col  lg:mt-28 lg:ml-56 min-[561px]:mt-20 min-[561px]:ml-10 
                        
                        font-family:League Spartan' >
-                        <div  className='mt-10  min-[561px]:mt-0  max-[560px]:text-center '>
+                        <div className='mt-10  min-[561px]:mt-0  max-[560px]:text-center '>
                             <h1 className='lg:text-5xl min-[561px]:text-4xl text-3xl font-bold '>Stop Neck Pain</h1>
                             <p className='mt-2 lg:w-96 min-[561px]:w-96 min-[561px]:text-xl lg:text-xl text-lg '>Stop letting neck pain hold you back - take control and say goodbye to discomfort!</p>
                         </div>
                         <div className='max-[560px]:text-center'>
-                            <button type='button' className='btn btn-active btn-primary lg:mt-10 min-[561px]:mt-5 mt-8 '><a href="https://forms.zoho.in/myfunc/form/NeckDisabilityIndexNDI1"target="_blank" >Assessment Link</a></button>
+                            <button type='button' className='btn btn-active btn-primary lg:mt-10 min-[561px]:mt-5 mt-8 '><a href="https://forms.zoho.in/myfunc/form/NeckDisabilityIndexNDI1" target="_blank" >Assessment Link</a></button>
                         </div>
                     </div>
                     <div >
@@ -61,10 +65,47 @@ const Header = () => {
                     <div className='lg:w-[58rem]  lg:ml-[30.9%] md:w-[90%] md:ml-[9.4%] max-[500px]:w-[70]  relative' >
                         <img src={Rectangle3} alt='' className='mt-36 max-[560px]:rounded-[20%]' />
                     </div>
-                    {/* <div className='absolute'>
-                    <h1>Ignoring neck pain can lead to</h1>
-                    
-                </div> */}
+                    <div className='absolute right-44 -mt-[35%] font-bold'>
+                        <h1 className='text-4xl text-center '>Ignoring neck pain can lead to</h1>
+                    </div>
+                    <div className='absolute white-row -mt-[27%] right-10 w-[55%]'>
+                        <div className='row-1'>
+                            <div className='row'>
+                                <img src={icon1} alt='' className='w-20 h-20 mr-2' />
+                                <div className='d-flex w-[66%] '>
+                                    <h4 className='font-bold'>Chronic Pain</h4>
+                                    <p>Ignoring neck pain can lead to the development of chronic pain,
+                                        which can become debilitating and negatively impact the quality of life.</p>
+                                </div>
+                            </div>
+                            <div className='row'>
+                                <img src={icon2} alt='' className='w-[18] h-20 mr-3 -ml-4'  />
+                                <div className='d-flex w-[55%]'>
+                                    <h4 className='font-bold'>Limited Mobility</h4>
+                                    <p>Untreated neck pain can lead to a reduced range of motion,
+                                        making it difficult to perform daily activities and affecting overall mobility.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='row-1'>
+                            <div className='row'>
+                                <img src={icon3} alt='' className='w-20 h-20 mr-2' />
+                                <div className='d-flex  w-[55%]'>
+                                    <h4 className='font-bold'>Headache </h4>
+                                    <p>Neck pain can cause tension headaches, which can be painful and interfere with daily functioning.</p>
+                                </div>
+                            </div>
+                            <div className='row'>
+                                <img src={icon4} alt='' className='w-20 h-20 mr-2' />
+                                <div className='d-flex  w-[55%]'>
+                                    <h4 className='font-bold'>Depression and Anxiety</h4>
+                                    <p>Chronic pain can significantly impact mental health,
+                                        leading to depression and anxiety in some individuals.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Doctor section */}
@@ -90,7 +131,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div style={{ textAlign: 'center' }}>
-                        <button type='button' className='btn btn-active btn-primary mt-10 '><a href="https://forms.zoho.in/myfunc/form/NeckDisabilityIndexNDI1"target="_blank" >Assessment Link</a></button>
+                        <button type='button' className='btn btn-active btn-primary mt-10 '><a href="https://forms.zoho.in/myfunc/form/NeckDisabilityIndexNDI1" target="_blank" >Assessment Link</a></button>
                     </div>
                     <div style={{ textAlign: 'center' }} className='m-20'>
                         <h1 className='lg:text-4xl min-[561px]:text-4xl text-2xl font-bold'>Let’s Get Started</h1>
