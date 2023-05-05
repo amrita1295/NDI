@@ -62,16 +62,16 @@ const Header = () => {
 
                 {/* White space section */}
                 <div className='max-[560px]:-mt-10'>
-                    <div className='lg:w-[58rem]  lg:ml-[30.9%] min-[561px]:w-[90%] min-[561px]:ml-[9.4%] max-[500px]:w-[70] max-[560px]:h-52  relative' >
-                        <img src={Rectangle3} alt='' className='mt-36 max-[560px]:rounded-[20%] ' />
+                    <div className='lg:w-[58rem]  lg:ml-[30.9%] min-[561px]:w-[90%] min-[561px]:ml-[9.4%] max-[560px]:w-[70] max-[560px]:h-72 max-[560px]:bg-white relative max-[560px]:mt-36' >
+                        <img src={Rectangle3} alt='' className='mt-36 max-[560px]:rounded-[20%] max-[560px]:hidden  ' />
                     </div>
                     <div className='absolute lg:right-44 lg:-mt-[35%] font-bold min-[561px]:right-20 min-[561px]:-mt-[45%] 
-                    max-[560px]:-mt-[60%] max-[560px]:ml-24'>
+                    max-[560px]:-mt-[80%] max-[560px]:ml-20'>
                         <h1 className='lg:text-4xl min-[561px]:text-3xl max-[560px]:text-lg text-center '>Ignoring neck pain can lead to</h1>
                     </div>
 
                     <div className='absolute white-row lg:-mt-[27%] lg:right-10 lg:w-[55%] min-[561px]:-mt-[35%]  min-[561px]:w-[80%] min-[561px]:ml-32 
-                    max-[560px]:-mt-[45%] max-[560px]:w-[96%]'>
+                    max-[560px]:-mt-[62%] max-[560px]:w-[96%]'>
                         <div className='row-1 '>
                             <div className='row lg:w-[40] min-[561px]:w-[40] '>
                                 <img src={icon1} alt='' className='lg:w-20 lg:h-20 min-[561px]:w-16 min-[561px]:h-16 max-[560px]:w-10 max-[560px]:h-10 mr-2' />
