@@ -18,18 +18,18 @@ import icon2 from "../../images/icon-2.png"
 const Header = () => {
     return (
         <React.Fragment>
-            <div className='bg-[#FBF8F0] -mt-24'>
+            <div className='bg-[#FBF8F0] -mt-24 max-[560px]:pt-12'>
                 {/* Header section */}
-                <div className='bg-[#FBF8F0] lg:flex lg:flex-row min-[561px]:flex min-[561px]:flex-row '>
+                <div className='bg-[#FBF8F0] lg:flex lg:flex-row min-[561px]:flex min-[561px]:flex-row f-class'>
                     <div className='flex flex-col  lg:mt-28 lg:ml-56 min-[561px]:mt-20 min-[561px]:ml-10 
                        
                        font-family:League Spartan' >
                         <div className='mt-10  min-[561px]:mt-0  max-[560px]:text-center '>
-                            <h1 className='lg::text-5xl min-[561px]:text-4xl text-3xl font-bold '>Stop Neck Pain</h1>
-                            <p className='mt-2 lg:w-96 min-[561px]:w-96 min-[561px]:text-xl lg:text-xl text-lg '>Stop letting neck pain hold you back - take control and say goodbye to discomfort!</p>
+                            <h1 className='lg::text-5xl min-[561px]:text-4xl text-3xl font-bold 2xl:text-6xl'>Stop Neck Pain</h1>
+                            <p className='mt-2 lg:w-96 min-[561px]:w-96 min-[561px]:text-xl lg:text-xl text-lg 2xl:text-4xl length '>Stop letting neck pain hold you back - take control and say goodbye to discomfort!</p>
                         </div>
                         <div className='max-[560px]:text-center'>
-                            <button type='button' className='btn btn-active btn-primary lg:mt-10 min-[561px]:mt-5 mt-8 '><a href="https://forms.myfunc.in/myfunc/form/NeckDisabilityIndexNDI1/formperma/g4vvKynOw-4TJipkyv4feHT-UZ1b7yj0HVi2_QXaHJw" target="_blank" >Assessment Link</a></button>
+                            <button type='button' className='btn btn-active btn-primary lg:mt-10 min-[561px]:mt-5 mt-8 2xl:text-3xl 2xl:p-7 2xl:h-24'><a href="https://forms.myfunc.in/myfunc/form/NeckDisabilityIndexNDI1/formperma/g4vvKynOw-4TJipkyv4feHT-UZ1b7yj0HVi2_QXaHJw" target="_blank" >Assessment Link</a></button>
                         </div>
                     </div>
                     <div >

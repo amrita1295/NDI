@@ -56,4 +56,14 @@
     .line{
         margin-right: 5rem;
     }
+    .f-class{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+   .length{
+    width: 40vw;
+    font-weight: 400;
+    margin-top: 1em;
+   }
 }
