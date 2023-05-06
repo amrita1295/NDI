@@ -77,16 +77,16 @@ const Header = () => {
                             <div className='row lg:w-[40] min-[561px]:w-[40] '>
                                 <img src={icon1} alt='' className='lg:w-20 lg:h-20 min-[561px]:w-16 min-[561px]:h-16 max-[560px]:w-10 max-[560px]:h-10 mr-2' />
                                 <div className='d-flex lg:w-[66%] min-[561px]:w-[60%] max-[560px]:w-[96%]'>
-                                    <h4 className='font-bold max-[560px]:text-sm'>Chronic Pain</h4>
-                                    <p className='min-[561px]:text-sm lg:text-[16px] max-[560px]:text-xs  '>Ignoring neck pain can lead to the development of chronic pain,
+                                    <h4 className='font-bold max-[560px]:text-sm 2xl:text-xl'>Chronic Pain</h4>
+                                    <p className='min-[561px]:text-sm lg:text-[16px] max-[560px]:text-xs 2xl:text-lg '>Ignoring neck pain can lead to the development of chronic pain,
                                         which can become debilitating and negatively impact the quality of life.</p>
                                 </div>
                             </div>
                             <div className='row'>
                                 <img src={icon2} alt='' className='lg:w-20 lg:h-20 min-[561px]:w-16 min-[561px]:h-16 max-[560px]:w-10 max-[560px]:h-10 mr-2 ' />
                                 <div className='d-flex lg:w-[66%] min-[561px]:w-[60%] '>
-                                    <h4 className='font-bold max-[560px]:text-sm'>Limited Mobility</h4>
-                                    <p className='min-[561px]:text-sm lg:text-[16px] max-[560px]:text-xs'>Untreated neck pain can lead to a reduced range of motion,
+                                    <h4 className='font-bold max-[560px]:text-sm 2xl:text-xl'>Limited Mobility</h4>
+                                    <p className='min-[561px]:text-sm lg:text-[16px] max-[560px]:text-xs 2xl:text-lg '>Untreated neck pain can lead to a reduced range of motion,
                                         making it difficult to perform daily activities and affecting overall mobility.</p>
                                 </div>
                             </div>
@@ -96,15 +96,15 @@ const Header = () => {
                             <div className='row'>
                                 <img src={icon3} alt='' className='lg:w-20 lg:h-20 mr-2 min-[561px]:w-16 min-[561px]:h-16 max-[560px]:w-10 max-[560px]:h-10 ' />
                                 <div className='d-flex  lg:w-[66%] min-[561px]:w-[60%] '>
-                                    <h4 className='font-bold max-[560px]:text-sm'>Headache </h4>
-                                    <p className='min-[561px]:text-sm lg:text-[16px] max-[560px]:text-xs'>Neck pain can cause tension headaches, which can be painful and interfere with daily functioning.</p>
+                                    <h4 className='font-bold max-[560px]:text-sm 2xl:text-xl'>Headache </h4>
+                                    <p className='min-[561px]:text-sm lg:text-[16px] max-[560px]:text-xs 2xl:text-lg '>Neck pain can cause tension headaches, which can be painful and interfere with daily functioning.</p>
                                 </div>
                             </div>
                             <div className='row'>
                                 <img src={icon4} alt='' className='lg:w-20 lg:ml-5 lg:h-20 mr-2 min-[561px]:w-16 min-[561px]:h-16 min-[561px]:ml-4 max-[560px]:w-10 max-[560px]:h-10' />
                                 <div className='d-flex  lg:w-[66%] min-[561px]:w-[60%] lg:ml-1 '>
-                                    <h4 className='font-bold max-[560px]:text-sm '>Depression and Anxiety</h4>
-                                    <p className='min-[561px]:text-sm lg:text-[16px] max-[560px]:text-xs'>Chronic pain can significantly impact mental health,
+                                    <h4 className='font-bold max-[560px]:text-sm 2xl:text-xl'>Depression and Anxiety</h4>
+                                    <p className='min-[561px]:text-sm lg:text-[16px] max-[560px]:text-xs 2xl:text-lg '>Chronic pain can significantly impact mental health,
                                         leading to depression and anxiety in some individuals.</p>
                                 </div>
                             </div>
