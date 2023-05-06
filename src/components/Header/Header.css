@@ -32,7 +32,29 @@
     /* width: 80%; */
 
 }
-@media only screen and (min-width: 1536px) and (max-width:1920px){
+@media only screen and (min-width: 1536px){
+    .image1{
+        width: 17vw;
+        margin-top: -4rem;
+    }
+    .image2{
+        width: 17vw;
+        margin-top: -3rem;
+    }
+    .rectangle2{
+        margin-top: -24rem;
+    }
+    .see{
+        margin-top: -17rem;
+    }
+    .fontty{
+        font-size: 4em;
+    }
+    .fontty1{
+        font-size: 2em;
+    }
+}
+@media only screen and (min-width: 1800px) and (max-width:1920px){
     .screen{
         width: 69%;
     }
