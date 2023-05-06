@@ -102,8 +102,8 @@ const Header = () => {
                             </div>
                             <div className='row'>
                                 <img src={icon4} alt='' className='lg:w-20 lg:ml-5 lg:h-20 mr-2 min-[561px]:w-16 min-[561px]:h-16 max-[560px]:w-10 max-[560px]:h-10' />
-                                <div className='d-flex  lg:w-[66%] min-[561px]:w-[60%] '>
-                                    <h4 className='font-bold max-[560px]:text-sm'>Depression and Anxiety</h4>
+                                <div className='d-flex  lg:w-[66%] min-[561px]:w-[60%] lg:ml-1 '>
+                                    <h4 className='font-bold max-[560px]:text-sm '>Depression and Anxiety</h4>
                                     <p className='min-[561px]:text-sm lg:text-[16px] max-[560px]:text-xs'>Chronic pain can significantly impact mental health,
                                         leading to depression and anxiety in some individuals.</p>
                                 </div>
