@@ -25,7 +25,7 @@ const Header = () => {
                        
                        font-family:League Spartan' >
                         <div className='mt-10  min-[561px]:mt-0  max-[560px]:text-center '>
-                            <h1 className='lg:text-5xl min-[561px]:text-4xl text-3xl font-bold '>Stop Neck Pain</h1>
+                            <h1 className='lg::text-5xl min-[561px]:text-4xl text-3xl font-bold '>Stop Neck Pain</h1>
                             <p className='mt-2 lg:w-96 min-[561px]:w-96 min-[561px]:text-xl lg:text-xl text-lg '>Stop letting neck pain hold you back - take control and say goodbye to discomfort!</p>
                         </div>
                         <div className='max-[560px]:text-center'>
@@ -33,36 +33,37 @@ const Header = () => {
                         </div>
                     </div>
                     <div >
-                        <img src={header} alt='' className='w-96%  lg:-ml-6 min-[561px]:-ml-5 min-[561px]:mt-20 max-[560px]:w-[90%] ' />
+                        <img src={header} alt='' className='w-100%  lg:-ml-6 min-[561px]:-ml-5 min-[561px]:mt-20 max-[560px]:w-[90%] ' />
                     </div>
                 </div>
 
                 {/* Rectangle section */}
                 <div className='bg-[#FBF8F0]' >
                     <div className='lg:-mt-8 min-[561px]:-mt-5 -mt-6'>
-                        <img src={Rectangle1} alt='' className='lg:-mt-8 mt-2 max-[560px]:h-32 ' />
+                        <img src={Rectangle1} alt='' className='lg:w-[100%] lg:-mt-8 mt-2 max-[560px]:h-32 rectangle1' />
 
                     </div>
-                    <div className='lg:-mt-80 min-[561px]:-mt-40 -mt-32 relative font-family:Urbanist'>
-                        <img src={Rectangle2} alt='' className='max-[560px]:h-32 ' />
-                        <div className='lg:right-4 min-[561px]:right-16 right-4 -mt-24 lg:-mt-56 min-[561px]:-mt-40 absolute text-white w-[50%] max-[500px]:w-[60%] '>
-                            <h2 className='lg:text-3xl min-[561px]:text-xl text-md font-bold '>Don't Let reels Win</h2>
-                            <p className='mt-2 lg:text-xl min-[561px]:text-lg text-xs max-[560px]:mt-1 '> Act now and start your journey towards a
+                    <div className='lg:-mt-80 min-[561px]:-mt-40 -mt-32 relative font-family:Urbanist rectangle2'>
+                        <img src={Rectangle2} alt='' className='max-[560px]:h-32 lg:w-[100%]  ' />
+                        <div className=' text  lg:right-4 min-[561px]:right-16 right-4 -mt-24 lg:-mt-56 min-[561px]:-mt-40 
+                        absolute text-white w-[50%] max-[500px]:w-[60%] 2xl:right-24'>
+                            <h2 className='lg:text-3xl min-[561px]:text-xl text-md font-bold 2xl:text-6xl '>Don't Let reels Win</h2>
+                            <p className='mt-2 lg:text-xl min-[561px]:text-lg text-xs max-[560px]:mt-1 2xl:text-4xl'> Act now and start your journey towards a
                                 pain-free life with the help of a medical professional today!</p>
                         </div>
                     </div>
-                    <div className='absolute lg:-mt-96 lg:ml-48 min-[561px]:-mt-[28%] min-[561px]:ml-12 -mt-36 ml-2'>
-                        <img src={mobile} className='lg:w-64 min-[561px]:w-36 w-20' />
+                    <div className='absolute lg:-mt-96 lg:ml-48 min-[561px]:-mt-[28%] min-[561px]:ml-12 -mt-36 ml-2 '>
+                        <img src={mobile} className='lg:w-64 min-[561px]:w-36 w-20 image1' />
                     </div>
                     <div className='absolute lg:-mt-52 lg:ml-80 min-[561px]:-mt-32 min-[561px]:ml-28 -mt-20 ml-14 '>
-                        <img src={skipping} className='lg:w-60 min-[561px]:w-36 w-20 ' />
+                        <img src={skipping} className='lg:w-60 min-[561px]:w-36 w-20 image2 ' />
                     </div>
 
                 </div>
 
                 {/* White space section */}
                 <div className='max-[560px]:-mt-10'>
-                    <div className='lg:w-[58rem]  lg:ml-[30.9%] min-[561px]:w-[90%] min-[561px]:ml-[9.4%] max-[560px]:w-[70] max-[560px]:h-72 max-[560px]:bg-white relative max-[560px]:mt-36' >
+                    <div className='screen  lg:w-[58rem]  lg:ml-[30.9%] min-[561px]:w-[90%] min-[561px]:ml-[9.4%] max-[560px]:w-[70] max-[560px]:h-72 max-[560px]:bg-white relative max-[560px]:mt-36' >
                         <img src={Rectangle3} alt='' className='mt-36 max-[560px]:rounded-[20%] max-[560px]:hidden  ' />
                     </div>
                     <div className='absolute lg:right-44 lg:-mt-[35%] font-bold min-[561px]:right-20 min-[561px]:-mt-[45%] 
@@ -71,7 +72,7 @@ const Header = () => {
                     </div>
 
                     <div className='absolute white-row lg:-mt-[27%] lg:right-10 lg:w-[55%] min-[561px]:-mt-[35%]  min-[561px]:w-[80%] min-[561px]:ml-32 
-                    max-[560px]:-mt-[62%] max-[560px]:w-[96%]'>
+                    max-[560px]:-mt-[62%] max-[560px]:w-[96%] min-[1920px]: -mt-96'>
                         <div className='row-1 '>
                             <div className='row lg:w-[40] min-[561px]:w-[40] '>
                                 <img src={icon1} alt='' className='lg:w-20 lg:h-20 min-[561px]:w-16 min-[561px]:h-16 max-[560px]:w-10 max-[560px]:h-10 mr-2' />
@@ -113,7 +114,7 @@ const Header = () => {
 
                 {/* Doctor section */}
                 <div className='lg:mt-48 min-[561px]:mt-40 mt-24'>
-                    <img src={doctor} alt='' />
+                    <img src={doctor} alt='' className='lg:w-[100%]'/>
                 </div>
 
                 {/* Features section */}
