@@ -47,7 +47,7 @@ const Header = () => {
                         <img src={Rectangle2} alt='' className='max-[560px]:h-32 lg:w-[100%]  ' />
                         <div className=' text  lg:right-4 min-[561px]:right-16 right-4 -mt-24 lg:-mt-56 min-[561px]:-mt-40 
                         absolute text-white w-[50%] max-[500px]:w-[60%] 2xl:right-24'>
-                            <h2 className='lg:text-3xl min-[561px]:text-xl text-md font-bold 2xl:text-6xl '>Don't Let reels Win</h2>
+                            <h2 className='lg:text-3xl min-[561px]:text-xl text-md font-bold 2xl:text-6xl '>Don't Let Reels Win</h2>
                             <p className='mt-2 lg:text-xl min-[561px]:text-lg text-xs max-[560px]:mt-1 2xl:text-4xl'> Act now and start your journey towards a
                                 pain-free life with the help of a medical professional today!</p>
                         </div>
@@ -67,8 +67,8 @@ const Header = () => {
                         <img src={Rectangle3} alt='' className='mt-36 max-[560px]:rounded-[20%] max-[560px]:hidden  ' />
                     </div>
                     <div className='absolute lg:right-44 lg:-mt-[35%] font-bold min-[561px]:right-20 min-[561px]:-mt-[45%] 
-                    max-[560px]:-mt-[80%] max-[560px]:ml-20'>
-                        <h1 className='lg:text-4xl min-[561px]:text-3xl max-[560px]:text-lg text-center '>Ignoring neck pain can lead to</h1>
+                    max-[560px]:-mt-[80%] max-[560px]:ml-20 line'>
+                        <h1 className='lg:text-4xl min-[561px]:text-3xl max-[560px]:text-lg text-center line '>Ignoring neck pain can lead to</h1>
                     </div>
 
                     <div className='absolute white-row lg:-mt-[27%] lg:right-10 lg:w-[55%] min-[561px]:-mt-[35%]  min-[561px]:w-[80%] min-[561px]:ml-32 

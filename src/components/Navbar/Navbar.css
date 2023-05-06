@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1536px) and (max-width:1920px){
+    .logo{
+        margin-left: -1px;
+        padding: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 560px){
+    .logo{
+        margin-left: -1px;
+        padding: 5px;
+
+    }
+    .pic{
+        width: 15vw;
+    }
+
+}
