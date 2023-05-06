@@ -18,7 +18,7 @@ import icon2 from "../../images/icon-2.png"
 const Header = () => {
     return (
         <React.Fragment>
-            <div className='bg-[#FBF8F0]'>
+            <div className='bg-[#FBF8F0] -mt-24'>
                 {/* Header section */}
                 <div className='bg-[#FBF8F0] lg:flex lg:flex-row min-[561px]:flex min-[561px]:flex-row '>
                     <div className='flex flex-col  lg:mt-28 lg:ml-56 min-[561px]:mt-20 min-[561px]:ml-10 
