@@ -26,7 +26,7 @@ const Header = () => {
                        font-family:League Spartan' >
                         <div className='mt-10  min-[561px]:mt-0  max-[560px]:text-center '>
                             <h1 className='lg::text-5xl min-[561px]:text-4xl text-3xl font-bold 2xl:text-6xl'>Stop Neck Pain</h1>
-                            <p className='mt-2 lg:w-96 min-[561px]:w-96 min-[561px]:text-xl lg:text-xl text-lg 2xl:text-4xl length '>Stop letting neck pain hold you back - take control and say goodbye to discomfort!</p>
+                            <p className='mt-2 lg:w-96 min-[561px]:w-96 min-[561px]:text-xl lg:text-xl text-lg 2xl:text-4xl length '>Stop letting neck pain hold you back <br  /> take control and say goodbye to discomfort! </p>
                         </div>
                         <div className='max-[560px]:text-center'>
                             <button type='button' className='btn btn-active btn-primary lg:mt-10 min-[561px]:mt-5 mt-8 2xl:text-3xl 2xl:p-7 2xl:h-24'><a href="https://forms.myfunc.in/myfunc/form/NeckDisabilityIndexNDI1/formperma/g4vvKynOw-4TJipkyv4feHT-UZ1b7yj0HVi2_QXaHJw" target="_blank" >Assessment Link</a></button>
