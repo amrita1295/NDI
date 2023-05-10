@@ -58,12 +58,12 @@
     .screen{
         width: 69%;
     }
-    .rectangle1{
+    /* .rectangle1{
         margin-top: -3rem;
     }
     .rectangle2{
         margin-top: -27rem;
-    }
+    } */
     .image1{
         width: 20vw;
         margin-top: -13rem;
@@ -87,5 +87,9 @@
     width: 38vw;
     font-weight: 400;
     margin-top: 1em;
+   }
+   .length2{
+    width: 39vw;
+    margin-left: -0.1px;
    }
 }
